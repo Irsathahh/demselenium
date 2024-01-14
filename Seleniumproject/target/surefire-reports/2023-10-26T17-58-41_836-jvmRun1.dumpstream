@@ -1,0 +1,12 @@
+# Created at 2023-10-26T17:59:22.002
+[SUREFIRE] std/in stream corrupted
+java.io.IOException: Command NOOP unexpectedly read Void data with length 4.
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:130)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2023-10-26T18:04:49.973
+Unexpected IOException: 8,1,basesearch.Searchtravel,invokeBrowser(basesearch.Searchtravel),null,null,null,null,Searchtravel>Browser.invokeBrowser:108 \00BB InputMismatch,java.util.InputMismatchException\000A
+
+
